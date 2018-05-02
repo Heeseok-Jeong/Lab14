@@ -1,10 +1,22 @@
 package edu.handong.csee.java.lab14.prob3;
 
+import java.util.Scanner;
+
 public class Main {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		PowerCalc myCalc = new PowerCalc();
+		Scanner keyboard = new Scanner(System.in);
+		while(keyboard.hasNextInt()) {
+			int n = keyboard.nextInt();
+			int p = keyboard.nextInt();
+			
+			try { 
+				System.out.println(myCalc.power(n, p));
+			}
+			catch(Exception e) {
+				System.out.println(e);
+			}
+		}
+		keyboard.close();
 	}
-
 }

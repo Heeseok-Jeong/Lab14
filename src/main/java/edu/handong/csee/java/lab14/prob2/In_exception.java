@@ -18,6 +18,7 @@ public class In_exception {
 			System.out.print("y : ");
 			y = keyboard.nextInt();
 			System.out.println(x / y);
+			keyboard.close();
 		}
 		catch(ArithmeticException e) {
 			System.out.println("java.lang.ArithmeticException : "  + e.getMessage());
@@ -29,4 +30,5 @@ public class In_exception {
 			System.out.println("Some othe exception has occurred : " + e.getMessage());
 		}
 	}
+	
 }

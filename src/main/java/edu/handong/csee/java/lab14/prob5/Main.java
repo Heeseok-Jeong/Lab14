@@ -6,7 +6,6 @@ public class Main {
 	private static String str;
 	
 	public static void main(String[] args) {
-		
 		try {
 			Scanner keyboard = new Scanner(System.in);
 			System.out.println("Input string : ");
@@ -15,7 +14,7 @@ public class Main {
 			keyboard.close();
 		}
 		catch(MyException mae) {
-			System.out.println("Inside catch black : " + mae.toString());
+			System.out.println("Inside catch block : " + mae.toString());
 		}
 		
 	}

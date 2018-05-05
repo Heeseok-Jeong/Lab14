@@ -15,7 +15,6 @@ public class CustomID {
 	}
 	
 	public void setAge(int age) throws Exception {
-		//step = 1;
 		if(age < 18) 
 			throw new Exception("You are too young! Try again!");
 		else {
@@ -25,7 +24,6 @@ public class CustomID {
 	}
 	
 	public void setRace(String str) throws Exception {
-		//step = 2;
 		for(int i = 0; i < race.length; i++) {
 			if(race[i].equals(str)) {
 				System.out.println("Race is valid\nRace : " + race[i]);

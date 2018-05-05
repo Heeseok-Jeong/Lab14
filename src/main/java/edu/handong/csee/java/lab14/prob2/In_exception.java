@@ -3,7 +3,7 @@ package edu.handong.csee.java.lab14.prob2;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import com.google.common.util.concurrent.ExecutionError;
+//import com.google.common.util.concurrent.ExecutionError;
 
 public class In_exception {
 	private int x, y;

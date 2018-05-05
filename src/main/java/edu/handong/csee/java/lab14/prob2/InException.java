@@ -1,16 +1,14 @@
 package edu.handong.csee.java.lab14.prob2;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import java.util.InputMismatchException; //call a InputMismatchException class to use
+import java.util.Scanner; //call a Scanner class to use
 
-//import com.google.common.util.concurrent.ExecutionError;
-
-public class In_exception {
-	private int x, y;
+public class InException { //the class InException
+	private int x, y; //declare instance variables x and y
 	
-	public In_exception() {};
+	//public InException() {}; //
 	
-	public void error_det() {
+	public void errorDet() {
 		try {
 			Scanner keyboard = new Scanner(System.in);
 			System.out.print("x : ");
